@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+.page-header{
+    font-size: 15px;
+  padding-top: 20px;
+  padding-right: 10px;
+  text-align: right;
+  padding-right: 170px;
+}
+.page-header .logo img{
+ float: left;
+ padding-left: 100px;
+
+  }
+.page-header a{
+   padding-top: 25px;
+   text-align: right;
+  color: #ffffff;
+  text-decoration:none;
+  padding-right: 20px;
+}
+.page-header a:last-child{
+  display: inline-block;
+  text-decoration: none;
+  line-height: 20px;
+}
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-video-bg{
+  height: 100%;
+}
+
+.page-video-bg video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.page-mainer{
+  flex: 1;
+  text-align: right;
+  margin-top: 220px;
+  padding-right: 150px;
+}
+.page-mainer .slogan-container img{
+  width: 400px;
+  height: 80px;
+  margin-bottom: 22px;
+}
+
+.page-mainer .tubiao img{
+  width: 100px;
+  height: 50px;
+  margin-bottom: 20px;
+
+  
+}
+.page-mainer .tubiao img:last-child{
+  width: 50px;
+  height: 50px;
+  }
+ 
+.page-footer{
+  text-align: center;
+  padding-top: 20px;
+  
+}
+.page-footer .footer-info a{
+  color: #ffffff;
+  text-decoration:none;
+} 
+
